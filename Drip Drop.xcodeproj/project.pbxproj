@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083768E91BDD9DDD00A0FB85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083768E81BDD9DDD00A0FB85 /* AppDelegate.swift */; };
+		083768EB1BDD9DDD00A0FB85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083768EA1BDD9DDD00A0FB85 /* ViewController.swift */; };
+		083768EE1BDD9DDD00A0FB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083768EC1BDD9DDD00A0FB85 /* Main.storyboard */; };
+		083768F01BDD9DDD00A0FB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083768EF1BDD9DDD00A0FB85 /* Assets.xcassets */; };
+		083768F31BDD9DDD00A0FB85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083768F11BDD9DDD00A0FB85 /* LaunchScreen.storyboard */; };
+		083768FE1BDD9DDD00A0FB85 /* Drip_DropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083768FD1BDD9DDD00A0FB85 /* Drip_DropTests.swift */; };
+		083769091BDD9DDD00A0FB85 /* Drip_DropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083769081BDD9DDD00A0FB85 /* Drip_DropUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		083768FA1BDD9DDD00A0FB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083768DD1BDD9DDC00A0FB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083768E41BDD9DDD00A0FB85;
+			remoteInfo = "Drip Drop";
+		};
+		083769051BDD9DDD00A0FB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083768DD1BDD9DDC00A0FB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083768E41BDD9DDD00A0FB85;
+			remoteInfo = "Drip Drop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083768E51BDD9DDD00A0FB85 /* Drip Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drip Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		083768E81BDD9DDD00A0FB85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		083768EA1BDD9DDD00A0FB85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		083768ED1BDD9DDD00A0FB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		083768EF1BDD9DDD00A0FB85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		083768F21BDD9DDD00A0FB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		083768F41BDD9DDD00A0FB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083768F91BDD9DDD00A0FB85 /* Drip DropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drip DropTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		083768FD1BDD9DDD00A0FB85 /* Drip_DropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drip_DropTests.swift; sourceTree = "<group>"; };
+		083768FF1BDD9DDD00A0FB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083769041BDD9DDD00A0FB85 /* Drip DropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drip DropUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		083769081BDD9DDD00A0FB85 /* Drip_DropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drip_DropUITests.swift; sourceTree = "<group>"; };
+		0837690A1BDD9DDD00A0FB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		083768E21BDD9DDD00A0FB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083768F61BDD9DDD00A0FB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083769011BDD9DDD00A0FB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083768DC1BDD9DDC00A0FB85 = {
+			isa = PBXGroup;
+			children = (
+				083768E71BDD9DDD00A0FB85 /* Drip Drop */,
+				083768FC1BDD9DDD00A0FB85 /* Drip DropTests */,
+				083769071BDD9DDD00A0FB85 /* Drip DropUITests */,
+				083768E61BDD9DDD00A0FB85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		083768E61BDD9DDD00A0FB85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083768E51BDD9DDD00A0FB85 /* Drip Drop.app */,
+				083768F91BDD9DDD00A0FB85 /* Drip DropTests.xctest */,
+				083769041BDD9DDD00A0FB85 /* Drip DropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083768E71BDD9DDD00A0FB85 /* Drip Drop */ = {
+			isa = PBXGroup;
+			children = (
+				083768E81BDD9DDD00A0FB85 /* AppDelegate.swift */,
+				083768EA1BDD9DDD00A0FB85 /* ViewController.swift */,
+				083768EC1BDD9DDD00A0FB85 /* Main.storyboard */,
+				083768EF1BDD9DDD00A0FB85 /* Assets.xcassets */,
+				083768F11BDD9DDD00A0FB85 /* LaunchScreen.storyboard */,
+				083768F41BDD9DDD00A0FB85 /* Info.plist */,
+			);
+			path = "Drip Drop";
+			sourceTree = "<group>";
+		};
+		083768FC1BDD9DDD00A0FB85 /* Drip DropTests */ = {
+			isa = PBXGroup;
+			children = (
+				083768FD1BDD9DDD00A0FB85 /* Drip_DropTests.swift */,
+				083768FF1BDD9DDD00A0FB85 /* Info.plist */,
+			);
+			path = "Drip DropTests";
+			sourceTree = "<group>";
+		};
+		083769071BDD9DDD00A0FB85 /* Drip DropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				083769081BDD9DDD00A0FB85 /* Drip_DropUITests.swift */,
+				0837690A1BDD9DDD00A0FB85 /* Info.plist */,
+			);
+			path = "Drip DropUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		083768E41BDD9DDD00A0FB85 /* Drip Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0837690D1BDD9DDD00A0FB85 /* Build configuration list for PBXNativeTarget "Drip Drop" */;
+			buildPhases = (
+				083768E11BDD9DDD00A0FB85 /* Sources */,
+				083768E21BDD9DDD00A0FB85 /* Frameworks */,
+				083768E31BDD9DDD00A0FB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drip Drop";
+			productName = "Drip Drop";
+			productReference = 083768E51BDD9DDD00A0FB85 /* Drip Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		083768F81BDD9DDD00A0FB85 /* Drip DropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083769101BDD9DDD00A0FB85 /* Build configuration list for PBXNativeTarget "Drip DropTests" */;
+			buildPhases = (
+				083768F51BDD9DDD00A0FB85 /* Sources */,
+				083768F61BDD9DDD00A0FB85 /* Frameworks */,
+				083768F71BDD9DDD00A0FB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083768FB1BDD9DDD00A0FB85 /* PBXTargetDependency */,
+			);
+			name = "Drip DropTests";
+			productName = "Drip DropTests";
+			productReference = 083768F91BDD9DDD00A0FB85 /* Drip DropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		083769031BDD9DDD00A0FB85 /* Drip DropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083769131BDD9DDD00A0FB85 /* Build configuration list for PBXNativeTarget "Drip DropUITests" */;
+			buildPhases = (
+				083769001BDD9DDD00A0FB85 /* Sources */,
+				083769011BDD9DDD00A0FB85 /* Frameworks */,
+				083769021BDD9DDD00A0FB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083769061BDD9DDD00A0FB85 /* PBXTargetDependency */,
+			);
+			name = "Drip DropUITests";
+			productName = "Drip DropUITests";
+			productReference = 083769041BDD9DDD00A0FB85 /* Drip DropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		083768DD1BDD9DDC00A0FB85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "andrew hedrick";
+				TargetAttributes = {
+					083768E41BDD9DDD00A0FB85 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					083768F81BDD9DDD00A0FB85 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 083768E41BDD9DDD00A0FB85;
+					};
+					083769031BDD9DDD00A0FB85 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 083768E41BDD9DDD00A0FB85;
+					};
+				};
+			};
+			buildConfigurationList = 083768E01BDD9DDC00A0FB85 /* Build configuration list for PBXProject "Drip Drop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 083768DC1BDD9DDC00A0FB85;
+			productRefGroup = 083768E61BDD9DDD00A0FB85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083768E41BDD9DDD00A0FB85 /* Drip Drop */,
+				083768F81BDD9DDD00A0FB85 /* Drip DropTests */,
+				083769031BDD9DDD00A0FB85 /* Drip DropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		083768E31BDD9DDD00A0FB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083768F31BDD9DDD00A0FB85 /* LaunchScreen.storyboard in Resources */,
+				083768F01BDD9DDD00A0FB85 /* Assets.xcassets in Resources */,
+				083768EE1BDD9DDD00A0FB85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083768F71BDD9DDD00A0FB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083769021BDD9DDD00A0FB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		083768E11BDD9DDD00A0FB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083768EB1BDD9DDD00A0FB85 /* ViewController.swift in Sources */,
+				083768E91BDD9DDD00A0FB85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083768F51BDD9DDD00A0FB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083768FE1BDD9DDD00A0FB85 /* Drip_DropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083769001BDD9DDD00A0FB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083769091BDD9DDD00A0FB85 /* Drip_DropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083768FB1BDD9DDD00A0FB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083768E41BDD9DDD00A0FB85 /* Drip Drop */;
+			targetProxy = 083768FA1BDD9DDD00A0FB85 /* PBXContainerItemProxy */;
+		};
+		083769061BDD9DDD00A0FB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083768E41BDD9DDD00A0FB85 /* Drip Drop */;
+			targetProxy = 083769051BDD9DDD00A0FB85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		083768EC1BDD9DDD00A0FB85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083768ED1BDD9DDD00A0FB85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		083768F11BDD9DDD00A0FB85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083768F21BDD9DDD00A0FB85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0837690B1BDD9DDD00A0FB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0837690C1BDD9DDD00A0FB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0837690E1BDD9DDD00A0FB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Drip Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Drip-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0837690F1BDD9DDD00A0FB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Drip Drop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Drip-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		083769111BDD9DDD00A0FB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Drip DropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Drip-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drip Drop.app/Drip Drop";
+			};
+			name = Debug;
+		};
+		083769121BDD9DDD00A0FB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Drip DropTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Drip-DropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drip Drop.app/Drip Drop";
+			};
+			name = Release;
+		};
+		083769141BDD9DDD00A0FB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Drip DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Drip-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Drip Drop";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		083769151BDD9DDD00A0FB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Drip DropUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Drip-DropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Drip Drop";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083768E01BDD9DDC00A0FB85 /* Build configuration list for PBXProject "Drip Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0837690B1BDD9DDD00A0FB85 /* Debug */,
+				0837690C1BDD9DDD00A0FB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0837690D1BDD9DDD00A0FB85 /* Build configuration list for PBXNativeTarget "Drip Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0837690E1BDD9DDD00A0FB85 /* Debug */,
+				0837690F1BDD9DDD00A0FB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		083769101BDD9DDD00A0FB85 /* Build configuration list for PBXNativeTarget "Drip DropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083769111BDD9DDD00A0FB85 /* Debug */,
+				083769121BDD9DDD00A0FB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		083769131BDD9DDD00A0FB85 /* Build configuration list for PBXNativeTarget "Drip DropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083769141BDD9DDD00A0FB85 /* Debug */,
+				083769151BDD9DDD00A0FB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 083768DD1BDD9DDC00A0FB85 /* Project object */;
+}
